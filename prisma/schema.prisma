@@ -1,0 +1,45 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+model Recipe {
+    id          Int      @id @default(autoincrement())
+    name        String   @unique @db.VarChar(255) // minecraft:diamond_pickaxe
+    displayName String   @db.VarChar(255) // Diamond Pickaxe
+    type        String   @db.VarChar(50) // crafting, smelting, brewing
+    ingredients Json // {"diamond": 3, "stick": 2}
+    result      Json // {"item": "diamond_pickaxe", "quantity": 1}
+    modSource   String   @default("minecraft") @db.VarChar(100)
+    createdAt   DateTime @default(now())
+    updatedAt   DateTime @updatedAt
+
+    @@index([name])
+    @@index([type])
+    @@index([modSource])
+    @@index([type, modSource])
+    @@map("recipes")
+}
+
+model Calculation {
+    id            Int      @id @default(autoincrement())
+    name          String   @db.VarChar(255) // "Medieval House"
+    targetItems   Json // {"oak_planks": 100, "oak_stairs": 50}
+    baseResources Json // {"oak_log": 25, "coal": 10}
+    totalStacks   Int // Total de stacks necessários
+    chests        Int // Número de baús necessários
+    metadata      Json // {"processingTime": 150, "totalRecipes": 5}
+    createdAt     DateTime @default(now())
+    updatedAt     DateTime @updatedAt
+
+    @@index([name])
+    @@index([createdAt])
+    @@map("calculations")
+}
