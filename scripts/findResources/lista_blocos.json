@@ -1,0 +1,308 @@
+[
+    {
+        "id": 0,
+        "name": "Grass Block",
+        "displayName": "Grass block",
+        "quantity": {
+            "pack": 30,
+            "resto": 18
+        }
+    },
+    {
+        "id": 1,
+        "name": "Spruce Log",
+        "displayName": "Spruce log",
+        "quantity": {
+            "pack": 27,
+            "resto": 40
+        }
+    },
+    {
+        "id": 2,
+        "name": "Spruce Planks",
+        "displayName": "Spruce planks",
+        "quantity": {
+            "pack": 23,
+            "resto": 54
+        }
+    },
+    {
+        "id": 3,
+        "name": "Dark Oak Fence",
+        "displayName": "Dark oak fence",
+        "quantity": {
+            "pack": 10,
+            "resto": 37
+        }
+    },
+    {
+        "id": 4,
+        "name": "Deepslate Brick Stairs",
+        "displayName": "Deepslate brick stairs",
+        "quantity": {
+            "pack": 5,
+            "resto": 41
+        }
+    },
+    {
+        "id": 5,
+        "name": "Deepslate Brick Wall",
+        "displayName": "Deepslate brick wall",
+        "quantity": {
+            "pack": 5,
+            "resto": 39
+        }
+    },
+    {
+        "id": 6,
+        "name": "Dirt",
+        "displayName": "Dirt",
+        "quantity": {
+            "pack": 4,
+            "resto": 28
+        }
+    },
+    {
+        "id": 7,
+        "name": "Dark Oak Stairs",
+        "displayName": "Dark oak stairs",
+        "quantity": {
+            "pack": 3,
+            "resto": 38
+        }
+    },
+    {
+        "id": 8,
+        "name": "Deepslate Brick Slab",
+        "displayName": "Deepslate brick slab",
+        "quantity": {
+            "pack": 2,
+            "resto": 38
+        }
+    },
+    {
+        "id": 9,
+        "name": "Dark Oak Trapdoor",
+        "displayName": "Dark oak trapdoor",
+        "quantity": {
+            "pack": 2,
+            "resto": 28
+        }
+    },
+    {
+        "id": 10,
+        "name": "Jungle Trapdoor",
+        "displayName": "Jungle trapdoor",
+        "quantity": {
+            "pack": 2,
+            "resto": 23
+        }
+    },
+    {
+        "id": 11,
+        "name": "Lantern",
+        "displayName": "Lantern",
+        "quantity": {
+            "pack": 2,
+            "resto": 15
+        }
+    },
+    {
+        "id": 12,
+        "name": "Stripped Spruce Log",
+        "displayName": "Stripped spruce log",
+        "quantity": {
+            "pack": 2,
+            "resto": 0
+        }
+    },
+    {
+        "id": 13,
+        "name": "Glowstone",
+        "displayName": "Glowstone",
+        "quantity": {
+            "pack": 1,
+            "resto": 59
+        }
+    },
+    {
+        "id": 14,
+        "name": "Dark Oak Fence Gate",
+        "displayName": "Dark oak fence gate",
+        "quantity": {
+            "pack": 1,
+            "resto": 54
+        }
+    },
+    {
+        "id": 15,
+        "name": "Acacia Fence",
+        "displayName": "Acacia fence",
+        "quantity": {
+            "pack": 1,
+            "resto": 32
+        }
+    },
+    {
+        "id": 16,
+        "name": "Glass Pane",
+        "displayName": "Glass pane",
+        "quantity": {
+            "pack": 1,
+            "resto": 22
+        }
+    },
+    {
+        "id": 17,
+        "name": "Spruce Stairs",
+        "displayName": "Spruce stairs",
+        "quantity": {
+            "pack": 1,
+            "resto": 2
+        }
+    },
+    {
+        "id": 18,
+        "name": "Oak Trapdoor",
+        "displayName": "Oak trapdoor",
+        "quantity": {
+            "pack": 0,
+            "resto": 62
+        }
+    },
+    {
+        "id": 19,
+        "name": "Carrot",
+        "displayName": "Carrot",
+        "quantity": {
+            "pack": 0,
+            "resto": 61
+        }
+    },
+    {
+        "id": 20,
+        "name": "Deepslate Bricks",
+        "displayName": "Deepslate bricks",
+        "quantity": {
+            "pack": 0,
+            "resto": 48
+        }
+    },
+    {
+        "id": 21,
+        "name": "Grindstone",
+        "displayName": "Grindstone",
+        "quantity": {
+            "pack": 0,
+            "resto": 48
+        }
+    },
+    {
+        "id": 22,
+        "name": "Jungle Fence Gate",
+        "displayName": "Jungle fence gate",
+        "quantity": {
+            "pack": 0,
+            "resto": 48
+        }
+    },
+    {
+        "id": 23,
+        "name": "Spruce Sign",
+        "displayName": "Spruce sign",
+        "quantity": {
+            "pack": 0,
+            "resto": 36
+        }
+    },
+    {
+        "id": 24,
+        "name": "Jungle Stairs",
+        "displayName": "Jungle stairs",
+        "quantity": {
+            "pack": 0,
+            "resto": 32
+        }
+    },
+    {
+        "id": 25,
+        "name": "Sweet Berries",
+        "displayName": "Sweet berries",
+        "quantity": {
+            "pack": 0,
+            "resto": 24
+        }
+    },
+    {
+        "id": 26,
+        "name": "Oak Leaves",
+        "displayName": "Oak leaves",
+        "quantity": {
+            "pack": 0,
+            "resto": 20
+        }
+    },
+    {
+        "id": 27,
+        "name": "Dark Oak Door",
+        "displayName": "Dark oak door",
+        "quantity": {
+            "pack": 0,
+            "resto": 8
+        }
+    },
+    {
+        "id": 28,
+        "name": "Dark Oak Slab",
+        "displayName": "Dark oak slab",
+        "quantity": {
+            "pack": 0,
+            "resto": 8
+        }
+    },
+    {
+        "id": 29,
+        "name": "Jungle Fence",
+        "displayName": "Jungle fence",
+        "quantity": {
+            "pack": 0,
+            "resto": 8
+        }
+    },
+    {
+        "id": 30,
+        "name": "Spruce Trapdoor",
+        "displayName": "Spruce trapdoor",
+        "quantity": {
+            "pack": 0,
+            "resto": 8
+        }
+    },
+    {
+        "id": 31,
+        "name": "Torch",
+        "displayName": "Torch",
+        "quantity": {
+            "pack": 0,
+            "resto": 4
+        }
+    },
+    {
+        "id": 32,
+        "name": "Crafting Table",
+        "displayName": "Crafting table",
+        "quantity": {
+            "pack": 0,
+            "resto": 2
+        }
+    },
+    {
+        "id": 33,
+        "name": "White Bed",
+        "displayName": "White bed",
+        "quantity": {
+            "pack": 0,
+            "resto": 1
+        }
+    }
+]
